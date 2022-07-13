@@ -7,87 +7,102 @@
     <title>復興新生專區</title>
   </head>
   <body>
-    <div id="app" class="w-screen bg-[#E8C541]">
-      <div id="cover" class="w-full">
-        <img src="/src/assets/電腦版封面.jpeg" width="1440px" alt="電腦封面" />
+    <div id="app" class="w-screen bg-[#E8C541] md:bg-[#E8C541]">
+      <div id="cover" class="w-full md:w-full">
+        <img
+          src="/src/assets/電腦版封面.jpeg"
+          class="h-[1082px] w-full md:h-[1082px] md:w-full"
+          width="1440px"
+          alt="電腦封面"
+        />
       </div>
       <div
         id="timeline"
-        class="flex w-full flex-col items-center justify-center"
+        class="flex w-full flex-col items-center justify-center md:flex md:w-full md:flex-col md:items-center md:justify-center"
       >
-        <div class="w-full px-[460px] pb-4">
+        <div
+          class="w-full items-center justify-center px-[460px] pb-4 md:w-full md:items-center md:justify-center md:px-[460px] md:pb-4"
+        >
           <img
             src="/src/assets/Freshman Admission Schedule.png"
-            class="md:w-[600px]"
-            width="516px"
+            class="h-[150px] w-[516px] md:h-[150px] md:w-[516px]"
+            width=""
             alt="新生入學時程表"
           />
         </div>
-        <div class="flex w-full flex-col items-center justify-center py-7">
+        <div
+          class="flex w-full items-center justify-center pb-7 md:flex md:w-full md:items-center md:justify-center md:pb-7"
+        >
           <img
             src="/src/assets/Timeline (new).png"
-            class="md:w-[750px]"
-            width="974px"
+            class="h-[750px] w-[750px] md:h-[750px] md:w-[750px]"
+            width=""
             alt="時程表"
           />
         </div>
       </div>
     </div>
     <!--
-    <div id="app" class="w-screen bg-[#E8C541]">
-      <div class="flex items-center justify-center px-16 pt-5 md:w-full">
+    <div id="app" class="w-screen bg-[#E8C541] md:bg-[#E8C541]">
+      <div class="flex items-center justify-center px-16 pt-5 w-full md:px-16 md:pt-5 md:w-full md:flex md:items-center md:justify-center">
         <img
           src="/src/assets/Summer homework for freshmen.png"
-          class="md:w-[400px]"
+          class="md:w-[400px] w-[400px]"
           alt="新生暑假作業"
         />
       </div>
       <div
-        class="grid items-center justify-center gap-4 py-24 pl-44 md:grid-cols-3"
+        class="grid items-center justify-center gap-4 py-24 pl-44 grid-cols-3 md:grid-cols-3 md:grid md:items-center md:justify-center md:gap-4 md:py-24 md:pl-44"
       >
         <div>
-          <img src="/src/assets/book1.png" class="md:w-40" alt="作業說明" />
+          <a href="url">
+            <img src="/src/assets/book1.png" class="md:w-40 w-40" alt="作業說明" />
+          </a>          
         </div>
         <div>
-          <img src="/src/assets/book2.png" class="md:w-40" alt="暑假作業" />
+          <a href="url">
+            <img src="/src/assets/book2.png" class="md:w-40 w-40" alt="暑假作業" />
+          </a>
         </div>
         <div>
-          <img src="/src//assets/book3.png" class="md:w-40" alt="銜接教材" />
+          <a href="url">
+            <img src="/src//assets/book3.png" class="md:w-40 w-40" alt="銜接教材" />
+          </a>  
         </div>
       </div>
-      <div class="w-full">
+      <div class="md:w-full w-full">
         <img src="/src/assets/Background3.jpeg" alt="藍三角" />
       </div>
     </div>
     -->
     <!--
-    <div id="app" class="w-screen bg-[#EC6261]">
+    <div id="app" class="md:w-screen w-screen bg-[#EC6261] md:bg-[#EC6261]">
       <div
         id="textprofile"
-        class="flex flex-col items-center justify-center md:pl-10 md:pt-1"
+        class="flex flex-col items-center justify-center md:pl-10  pl-10 md:pt-1  pt-1 md:flex md:flex-col md:items-center md:justify-center"
       >
         <div>
           <img
             src="/src/assets/School Profile.PNG"
-            class="md:w-[375px]"
+            class="md:w-[375px] w-[375px]"
             alt="學校簡介"
           />
         </div>
       </div>
       <div
-        class="grid items-center justify-center py-24 md:grid-cols-3 md:gap-20 md:pl-[70px]"
+        class="grid items-center justify-center py-24 md:grid-cols-3 md:gap-20 md:pl-[70px] md:py-24 gap-20 pl-[70px] grid-cols-3 md:justify-center md:items-center md:grid "
       >
         <div>
           <a href="url">
             <img
               src="/src/assets/greysquare.jpg"
-              class="md:h-[223px] md:w-[300px]"
+              class="md:h-[223px] md:w-[300px] h-[223px] w-[300px]"
               alt="校長室影片"
             />
           </a>
           <img
             src="/src/assets/Principal room.png"
-            class="md:w-[200px]"
+            class="md:w-[200px] w-[200px]"
             alt="校長室"
           />
         </div>
@@ -95,13 +110,13 @@
           <a href="url">
             <img
               src="/src/assets/greysquare.jpg"
-              class="md:h-[223px] md:w-[300px]"
+              class="md:h-[223px] md:w-[300px] h-[223px] w-[300px]"
               alt="教務處影片"
             />
           </a>
           <img
             src="/src/assets/Academic Affairs Office.png"
-            class="md:w-[200px]"
+            class="md:w-[200px] w-[200px]"
             alt="教務處"
           />
         </div>
@@ -109,13 +124,13 @@
           <a href="url">
             <img
               src="/src/assets/greysquare.jpg"
-              class="md:h-[223px] md:w-[300px]"
+              class="md:h-[223px] md:w-[300px] h-[223px] w-[300px]"
               alt="學務處影片"
             />
           </a>
           <img
             src="/src/assets/Academic Affairs Office (1).png"
-            class="md:w-[200px]"
+            class="md:w-[200px] w-[200px]"
             alt="學務處"
           />
         </div>
@@ -123,13 +138,13 @@
           <a href="url">
             <img
               src="/src/assets/greysquare.jpg"
-              class="md:h-[223px] md:w-[300px]"
+              class="md:h-[223px] md:w-[300px] h-[223px] w-[300px]"
               alt="圖書館影片"
             />
           </a>
           <img
             src="/src/assets/library.png"
-            class="md:w-[200px]"
+            class="md:w-[200px] w-[200px]"
             alt="圖書館"
           />
         </div>
@@ -137,13 +152,13 @@
           <a href="url">
             <img
               src="/src/assets/greysquare.jpg"
-              class="md:h-[223px] md:w-[300px]"
+              class="md:h-[223px] md:w-[300px] h-[223px] w-[300px]"
               alt="總務處影片"
             />
           </a>
           <img
             src="/src/assets/General Services.png"
-            class="md:w-[200px]"
+            class="md:w-[200px] w-[200px]"
             alt="總務處"
           />
         </div>
@@ -151,28 +166,28 @@
           <a href="url">
             <img
               src="/src/assets/greysquare.jpg"
-              class="md:h-[223px] md:w-[300px]"
+              class="md:h-[223px] md:w-[300px] h-[223px] w-[300px]"
               alt="輔導室影片"
             />
           </a>
           <img
             src="/src/assets/Counseling Room.png"
-            class="md:w-[200px]"
+            class="md:w-[200px] w-[200px]"
             alt="輔導室"
           />
         </div>
       </div>
-      <div id="name" class="h-full w-auto bg-[#34559D]">
+      <div id="name" class="md:h-full h-full md:w-auto w-auto  bg-[#34559D] md:bg-[#34559D]">
         <div
-          class="md:pl-18 flex content-center items-center justify-center text-white md:gap-44"
+          class="md:pl-18 pl-18 md:flex flex content-center items-center justify-center text-white md:text-white md:gap-44 md:content-center md:items-center md:justify-center"
         >
-          <div class="py-[18px] text-right md:text-[30px]">
+          <div class="py-[18px] md:text-right text-right md:text-[30px] text-[30px] md:py-[18px]">
             <p>
               DESIGNED BY 白宜巧 呂昱萱 <br />
               CREATED BY 林怡均 黃冠霖
             </p>
           </div>
-          <div class="width:88px px-2 text-left md:text-[30px]">
+          <div class="width:88px px-2 md:text-left text-left md:text-[30px] text-[30px]">
             <p>
               MENTORED BY 陳晉<br />
               POWERED BY FHSH IT DEPT
